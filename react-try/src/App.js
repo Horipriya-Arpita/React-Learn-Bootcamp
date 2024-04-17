@@ -1,14 +1,15 @@
-import Component from "./Components/Component";
-import Buttons from "./Components/Buttons";
-import List from "./Components/List";
-import New from "./Components/New";
+
+import ChangeState from "./Components/Day2/ChangeState";
+import ArrayChange from "./Components/Day2/ArrayChange";
+import Buttons from "./Components/Day1/Buttons";
+
 function App() {
   return (
     <div className="App">
-      <Component />
+
+      <ChangeState />
+      <ArrayChange />
       <Buttons />
-      <List />
-      <New />
       
     </div>
   );
